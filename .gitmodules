@@ -1,0 +1,9 @@
+[submodule "AgentPay-SDK"]
+	path = AgentPay-SDK
+	url = https://github.com/Swayam-Bansal/AgentPay-SDK.git
+[submodule "Simulation"]
+	path = Simulation
+	url = https://github.com/Kart-ing/simulations.git
+[submodule "flux"]
+	path = flux
+	url = https://github.com/Kart-ing/flux.git
