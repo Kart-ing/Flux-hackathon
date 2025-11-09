@@ -91,13 +91,13 @@ Here's how all three systems work together:
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │ 1. USER REQUEST                                                 │
-│   User: "Create a marketing campaign for our new AI product"   │
+│   User: "Create a marketing campaign for our new AI product"    │
 └─────────────────────────────────────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────────────┐
-│ 2. ORCHESTRATOR AGENT (Simulation)                             │
-│   - Breaks down goal into subtasks                             │
-│   - Identifies required specialists:                           │
+│ 2. ORCHESTRATOR AGENT (Simulation)                              │
+│   - Breaks down goal into subtasks                              │
+│   - Identifies required specialists:                            │
 │     • Researcher: Analyze market and competitors ($50)          │
 │     • Content Writer: Create ad copy ($30)                      │
 │     • Image Generator: Design visuals ($40)                     │
@@ -105,23 +105,23 @@ Here's how all three systems work together:
 └─────────────────────────────────────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────────────┐
-│ 3. PAYMENT REQUEST (AgentPay SDK)                              │
-│   Orchestrator: "I need $120 for marketing campaign services"  │
-│   - Purpose: "Hire 3 specialists for campaign creation"        │
-│   - Justification: "Market research + content + visuals"       │
-│   - Expected ROI: "$5K from improved customer acquisition"     │
+│ 3. PAYMENT REQUEST (AgentPay SDK)                               │
+│   Orchestrator: "I need $120 for marketing campaign services"   │
+│   - Purpose: "Hire 3 specialists for campaign creation"         │
+│   - Justification: "Market research + content + visuals"        │
+│   - Expected ROI: "$5K from improved customer acquisition"      │
 │   - Urgency: High                                               │
 └─────────────────────────────────────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────────────┐
-│ 4. AI CONSENSUS QUORUM (5 Agents Vote)                         │
-│   💼 CFO Agent (Claude Sonnet):                                │
+│ 4. AI CONSENSUS QUORUM (5 Agents Vote)                          │
+│   💼 CFO Agent (Claude Sonnet):                                 │
 │      ✅ YES - "Reasonable cost for clear deliverables"          │
 │   🚀 Growth Agent (GPT-4):                                      │
 │      ✅ YES - "Aligns with customer acquisition strategy"       │
-│   🛡️ Risk Agent (Grok):                                        │
+│   🛡️ Risk Agent (Grok):                                         │
 │      ✅ YES - "Low risk, well-defined scope"                    │
-│   ⚙️ Operations Agent (GPT-4o-mini):                           │
+│   ⚙️ Operations Agent (GPT-4o-mini):                            │
 │      ✅ YES - "Standard marketing expense, good value"          │
 │   📊 Data Agent (O1):                                           │
 │      ✅ YES - "ROI metrics support the investment"              │
@@ -130,8 +130,8 @@ Here's how all three systems work together:
 └─────────────────────────────────────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────────────┐
-│ 5. VIRTUAL CARD GENERATION                                     │
-│   Card Number: 4242 4242 9182 7364                             │
+│ 5. VIRTUAL CARD GENERATION                                      │
+│   Card Number: 4242 4242 9182 7364                              │
 │   CVV: 123                                                      │
 │   Expiry: 12/26                                                 │
 │   Limit: $120.00                                                │
@@ -140,8 +140,8 @@ Here's how all three systems work together:
 └─────────────────────────────────────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────────────┐
-│ 6. AGENT HIRING & TRANSACTIONS                                 │
-│   Orchestrator uses card to hire agents:                       │
+│ 6. AGENT HIRING & TRANSACTIONS                                  │
+│   Orchestrator uses card to hire agents:                        │
 │   - Pay Researcher: $50 ✅ (Balance: $70)                       │
 │   - Pay Content Writer: $30 ✅ (Balance: $40)                   │
 │   - Pay Image Generator: $40 ✅ (Balance: $0)                   │
@@ -149,31 +149,31 @@ Here's how all three systems work together:
 └─────────────────────────────────────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────────────┐
-│ 7. WORK EXECUTION (Simulation)                                 │
-│   Each specialist agent completes their task:                  │
-│   - Researcher: Delivers market analysis report                │
-│   - Content Writer: Creates compelling ad copy                 │
-│   - Image Generator: Produces marketing visuals                │
+│ 7. WORK EXECUTION (Simulation)                                  │
+│   Each specialist agent completes their task:                   │
+│   - Researcher: Delivers market analysis report                 │
+│   - Content Writer: Creates compelling ad copy                  │
+│   - Image Generator: Produces marketing visuals                 │
 └─────────────────────────────────────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────────────┐
-│ 8. DASHBOARD VISUALIZATION (Flux Economy)                      │
-│   Real-time updates showing:                                   │
-│   - Payment request with all 5 consensus votes                 │
-│   - Virtual card details and usage                             │
-│   - 3 agent hire transactions                                  │
-│   - Budget tracking ($120 spent)                               │
-│   - Agent performance stats (Researcher +$50 earned, etc.)     │
-│   - Complete audit trail                                       │
+│ 8. DASHBOARD VISUALIZATION (Flux Economy)                       │
+│   Real-time updates showing:                                    │
+│   - Payment request with all 5 consensus votes                  │
+│   - Virtual card details and usage                              │
+│   - 3 agent hire transactions                                   │
+│   - Budget tracking ($120 spent)                                │
+│   - Agent performance stats (Researcher +$50 earned, etc.)      │
+│   - Complete audit trail                                        │
 └─────────────────────────────────────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────────────┐
-│ 9. DELIVERABLES                                                │
-│   User receives complete marketing campaign:                   │
+│ 9. DELIVERABLES                                                 │
+│   User receives complete marketing campaign:                    │
 │   ✅ Market analysis and competitor research                    │
 │   ✅ Professional ad copy                                       │
 │   ✅ Marketing visuals and graphics                             │
-│   All for $120, fully autonomous, fully audited                │
+│   All for $120, fully autonomous, fully audited                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
